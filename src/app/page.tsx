@@ -2,9 +2,9 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import WhyUs from "./sections/WhyUs";
 import Menu from "./sections/Menu";
-// import Specials from "./sections/Specials";
-// import Events from "./sections/Events";
-// import Booking from "./sections/Booking";
+import Specials from "./sections/Specials";
+import Events from "./sections/Events";
+import Booking from "./sections/Booking";
 // import Testimonials from "./sections/Testimonials";
 // import Gallery from "./sections/Gallery";
 // import Chefs from "./sections/Chefs";
@@ -18,10 +18,10 @@ export default function Home() {
         <About />
         <WhyUs />
         <Menu />
-        {/*   <Specials />
+        <Specials />
         <Events />
         <Booking />
-        <Testimonials />
+        {/*   <Testimonials />
         <Gallery />
         <Chefs />
         <Contact /> */}

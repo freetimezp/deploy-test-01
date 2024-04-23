@@ -14,7 +14,7 @@ const Events = () => {
     const [slides, setSlides] = useState<any | []>([]);
 
     const getEventsData = () => {
-        fetch('http://localhost:3000/api/events')
+        fetch('https://deploy-test-01.vercel.app/api/events')
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));

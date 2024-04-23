@@ -12,7 +12,7 @@ const Specials = () => {
     const [items, setItems] = useState<any | []>([]);
 
     const getSpecialsData = () => {
-        fetch('http://localhost:3000/api/specials')
+        fetch('https://deploy-test-01.vercel.app/api/specials')
             .then(res => res.json())
             .then(data => setData(data))
             .catch(e => console.log(e.message));
