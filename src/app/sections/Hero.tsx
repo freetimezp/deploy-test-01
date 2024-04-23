@@ -1,19 +1,19 @@
 "use client";
 import React, { useEffect } from 'react';
-//import GLightbox from 'glightbox';
+import GLightbox from 'glightbox';
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 
 
 const Hero = () => {
 
-    // useEffect(() => {
-    //     if (window && window !== undefined) {
-    //         GLightbox({
-    //             selector: '.glightbox',
-    //         });
-    //     }
-    // }, []);
+    useEffect(() => {
+        if (window && window !== undefined) {
+            GLightbox({
+                selector: '.glightbox',
+            });
+        }
+    }, []);
 
     return (
         <section id="hero" className='d-flex align-items-center'>
