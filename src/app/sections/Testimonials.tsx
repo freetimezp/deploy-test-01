@@ -14,7 +14,7 @@ const Testimonials = () => {
     const [slides, setSlides] = useState<any | []>([]);
 
     const getTestimonialsData = () => {
-        fetch('http://localhost:3000/api/testimonials')
+        fetch('https://deploy-test-01.vercel.app/api/testimonials')
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));

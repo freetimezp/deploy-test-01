@@ -5,7 +5,7 @@ import SectionTitle from '../components/SectionTitle';
 import ChefItem from '../components/ChefItem';
 
 async function getChefsData() {
-    const res = await fetch('http://localhost:3000/api/chefs');
+    const res = await fetch('https://deploy-test-01.vercel.app/api/chefs');
     return res.json();
 }
 

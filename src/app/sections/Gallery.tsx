@@ -9,7 +9,7 @@ const Gallery = () => {
     const [images, setImages] = useState<any | []>([]);
 
     const getGalleryData = () => {
-        fetch('http://localhost:3000/api/gallery')
+        fetch('https://deploy-test-01.vercel.app/api/gallery')
             .then(res => res.json())
             .then(data => setImages(data))
             .catch(e => console.log(e.message));

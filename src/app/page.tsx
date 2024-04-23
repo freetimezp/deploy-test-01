@@ -5,10 +5,10 @@ import Menu from "./sections/Menu";
 import Specials from "./sections/Specials";
 import Events from "./sections/Events";
 import Booking from "./sections/Booking";
-// import Testimonials from "./sections/Testimonials";
-// import Gallery from "./sections/Gallery";
-// import Chefs from "./sections/Chefs";
-// import Contact from "./sections/Contact";
+import Testimonials from "./sections/Testimonials";
+import Gallery from "./sections/Gallery";
+import Chefs from "./sections/Chefs";
+import Contact from "./sections/Contact";
 
 export default function Home() {
   return (
@@ -21,10 +21,10 @@ export default function Home() {
         <Specials />
         <Events />
         <Booking />
-        {/*   <Testimonials />
+        <Testimonials />
         <Gallery />
         <Chefs />
-        <Contact /> */}
+        <Contact />
       </main>
     </>
   );
