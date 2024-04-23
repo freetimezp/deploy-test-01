@@ -1,5 +1,5 @@
 import Hero from "./sections/Hero";
-// import About from "./sections/About";
+import About from "./sections/About";
 // import WhyUs from "./sections/WhyUs";
 // import Menu from "./sections/Menu";
 // import Specials from "./sections/Specials";
@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <main id="main">
+      <main id="main">
         <About />
-        <WhyUs />
+        {/*   <WhyUs />
         <Menu />
         <Specials />
         <Events />
@@ -24,8 +24,8 @@ export default function Home() {
         <Testimonials />
         <Gallery />
         <Chefs />
-        <Contact />
-      </main> */}
+        <Contact /> */}
+      </main>
     </>
   );
 }
