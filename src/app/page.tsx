@@ -1,7 +1,7 @@
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import WhyUs from "./sections/WhyUs";
-// import Menu from "./sections/Menu";
+import Menu from "./sections/Menu";
 // import Specials from "./sections/Specials";
 // import Events from "./sections/Events";
 // import Booking from "./sections/Booking";
@@ -17,8 +17,8 @@ export default function Home() {
       <main id="main">
         <About />
         <WhyUs />
-        {/*   <Menu />
-        <Specials />
+        <Menu />
+        {/*   <Specials />
         <Events />
         <Booking />
         <Testimonials />
